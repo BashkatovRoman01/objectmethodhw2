@@ -27,7 +27,7 @@ public class Author {
 
     @Override
     public String toString() {
-        return name +" " + lastName;
+        return name + " " + lastName;
     }
 
     @Override
@@ -42,4 +42,9 @@ public class Author {
     public int hashCode() {
         return Objects.hash(name, lastName);
     }
+
+    public boolean printAuthor() {
+        return false;
+    }
 }
+

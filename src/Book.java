@@ -29,5 +29,7 @@ public class Book {
     public void setPublished(int published) {
         this.published = published;
     }
-
+    public String toString () {
+        return " Название книги " + title +" Автор: " + author + " Год издания " + published;
+    }
 }
